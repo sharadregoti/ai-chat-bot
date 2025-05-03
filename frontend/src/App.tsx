@@ -4,8 +4,10 @@ import { DialogCloseButton } from "./Popup"
 function App() {
   return (
     <ChatProvider>
-      <div className="flex flex-col items-center justify-center min-h-svh">
-        <DialogCloseButton />
+      <div className="relative min-h-svh">
+        <div className="fixed bottom-6 right-6">
+          <DialogCloseButton />
+        </div>
       </div>
     </ChatProvider>
   )
