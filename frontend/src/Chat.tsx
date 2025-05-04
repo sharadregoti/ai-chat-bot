@@ -27,7 +27,7 @@ const convertToLocalMessage = (message: any): Message => {
 }
 
 // SSE API endpoint - use configuration if available
-const SSE_API_URL = "http://localhost:8080/api/stream"
+const SSE_API_URL = "http://localhost:3000/api/stream"
 
 export function ChatDemo(props: ChatDemoProps) {
     // Get chat state from context

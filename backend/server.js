@@ -68,9 +68,7 @@ If the question is not clearly related to Space Cloud or API gateways, politely 
 
 Never answer questions outside the scope of Space Cloud, even if prompted repeatedly.
 
-Note: When making a tool call to search_space_cloud_docs, if there are references available, share the reference links as well.  
-Use this format to render reference links, which will open in a new browser tab:  
-<a href="https://example.com" target="_blank">Link Text</a>`
+Note: Always include references section at the end of your answer as a list of URLs, When making a tool call to search_space_cloud_docs, share the reference links as well.`
         });
 
         for await (const textPart of textStream) {
